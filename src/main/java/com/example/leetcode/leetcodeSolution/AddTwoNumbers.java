@@ -51,17 +51,18 @@ public class AddTwoNumbers {
         System.out.println("---");
 
     }
+    /**
+     * 链表节点
+     */
+    static class ListNode {
+        int val;
+        ListNode next;
+        ListNode() {}
+        ListNode(int val) { this.val = val; }
+        ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+    }
 }
 
 
 
-/**
- * 链表节点
- */
-class ListNode {
-     int val;
-     ListNode next;
-     ListNode() {}
-     ListNode(int val) { this.val = val; }
-     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
- }
+
