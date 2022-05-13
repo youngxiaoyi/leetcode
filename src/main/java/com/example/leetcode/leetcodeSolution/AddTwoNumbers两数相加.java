@@ -3,7 +3,7 @@ package com.example.leetcode.leetcodeSolution;
 /**
  * 两数相加
  */
-public class AddTwoNumbers {
+public class AddTwoNumbers两数相加 {
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         //预节点 和 当前节点指针
         ListNode current = new ListNode(0);

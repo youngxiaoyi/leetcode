@@ -6,7 +6,7 @@ import java.util.Map;
 /**
  * 两数之和
  */
-public class TwoSum {
+public class TwoSum两数之和 {
     public static int[] twoSum(int[] nums, int target) {
         Map map = new HashMap();
         for (int i = 0; i < nums.length; i++) {

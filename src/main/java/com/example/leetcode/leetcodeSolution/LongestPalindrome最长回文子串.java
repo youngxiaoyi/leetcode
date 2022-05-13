@@ -4,7 +4,7 @@ package com.example.leetcode.leetcodeSolution;
  * 5. 最长回文子串
  * 给你一个字符串 s，找到 s 中最长的回文子串。
  */
-public class LongestPalindrome {
+public class LongestPalindrome最长回文子串 {
 
     /**
      * 中心扩散法

@@ -1,7 +1,5 @@
 package com.example.leetcode.leetcodeSolution;
 
-import java.util.Arrays;
-
 /**
  * 寻找两个正序数组的中位数
  *
@@ -13,7 +11,7 @@ import java.util.Arrays;
  * 链接：https://leetcode.cn/problems/median-of-two-sorted-arrays
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
-public class FindMedianSortedArrays {
+public class FindMedianSortedArrays寻找两个正序数组的中位数 {
     public static double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int len = nums1.length + nums2.length;
         if (len % 2 == 1) {
